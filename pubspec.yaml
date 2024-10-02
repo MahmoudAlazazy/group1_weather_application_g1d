@@ -1,0 +1,40 @@
+name: group1_weather_application_g1d
+description: Weather Application
+
+publish_to: 'none'
+
+version: 1.0.0+30
+
+environment:
+  sdk: '>=2.15.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  intl: ^0.19.0
+  syncfusion_flutter_charts: ^27.1.51
+  lottie: ^3.1.2
+  get: ^4.6.6
+  flutter_captions: ^0.0.1
+  chart_engine: ^2.1.0
+dependency_overrides:
+  win32: ^5.5.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/anims/
+
+  fonts:
+    - family: flutterfonts
+      fonts:
+        - asset: assets/fonts/flutterfonts.ttf
