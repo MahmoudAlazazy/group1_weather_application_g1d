@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:group1_weather_application_g1d/pages/home/home_screen.dart';
+import 'package:group1_weather_application_g1d/pages/splash/splash_screen.dart';
 import 'package:group1_weather_application_g1d/utils/Binding/HomeBinding.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class WeatherApp extends StatelessWidget {
       getPages: [
         GetPage(
           name: '/',
-          page: () => HomeScreen(),
+          page: () => SplashScreen(),
           binding: HomeBinding(),
         )
       ],
