@@ -24,7 +24,6 @@ class MyCard extends GetView<HomeController> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              //TODO
               Container(
                 padding: EdgeInsets.only(
                   top: 15,
@@ -68,7 +67,6 @@ class MyCard extends GetView<HomeController> {
                   ],
                 ),
               ),
-              //TODO
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.center,

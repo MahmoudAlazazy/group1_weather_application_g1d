@@ -27,7 +27,7 @@ android {
         applicationId "com.H2M.group1_weather_application_g1d"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk 34
+        minSdk 30
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
